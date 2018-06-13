@@ -1,0 +1,256 @@
+
+> videoSec@0.0.0 start /home/pi/videoSec
+> node ./bin/www
+
+GPIO Listening
+Boton pulsado
+Total listeners:  1
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+[0mGET /streaming [32m200 [0m180.382 ms - -[0m
+Total listeners:  1
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+(node) warning: possible EventEmitter memory leak detected. 11 unpipe listeners added. Use emitter.setMaxListeners() to increase limit.
+Trace
+    at Speaker.addListener (events.js:239:17)
+    at PassThrough.Readable.pipe (_stream_readable.js:480:8)
+    at Socket.<anonymous> (/home/pi/videoSec/utils/audioStreaming.js:67:17)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at Socket.onevent (/home/pi/videoSec/node_modules/socket.io/lib/socket.js:335:8)
+    at Socket.onpacket (/home/pi/videoSec/node_modules/socket.io/lib/socket.js:299:12)
+    at Client.ondecoded (/home/pi/videoSec/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/home/pi/videoSec/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/home/pi/videoSec/node_modules/socket.io/node_modules/socket.io-parser/index.js:257:14)
+(node) warning: possible EventEmitter memory leak detected. 11 finish listeners added. Use emitter.setMaxListeners() to increase limit.
+Trace
+    at Speaker.addListener (events.js:239:17)
+    at Speaker.once (events.js:265:8)
+    at PassThrough.Readable.pipe (_stream_readable.js:564:8)
+    at Socket.<anonymous> (/home/pi/videoSec/utils/audioStreaming.js:67:17)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at Socket.onevent (/home/pi/videoSec/node_modules/socket.io/lib/socket.js:335:8)
+    at Socket.onpacket (/home/pi/videoSec/node_modules/socket.io/lib/socket.js:299:12)
+    at Client.ondecoded (/home/pi/videoSec/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/home/pi/videoSec/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+(node) warning: possible EventEmitter memory leak detected. 11 drain listeners added. Use emitter.setMaxListeners() to increase limit.
+Trace
+    at Speaker.addListener (events.js:239:17)
+    at PassThrough.Readable.pipe (_stream_readable.js:498:8)
+    at Socket.<anonymous> (/home/pi/videoSec/utils/audioStreaming.js:67:17)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at Socket.onevent (/home/pi/videoSec/node_modules/socket.io/lib/socket.js:335:8)
+    at Socket.onpacket (/home/pi/videoSec/node_modules/socket.io/lib/socket.js:299:12)
+    at Client.ondecoded (/home/pi/videoSec/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/home/pi/videoSec/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/home/pi/videoSec/node_modules/socket.io/node_modules/socket.io-parser/index.js:257:14)
+(node) warning: possible EventEmitter memory leak detected. 11 close listeners added. Use emitter.setMaxListeners() to increase limit.
+Trace
+    at Speaker.addListener (events.js:239:17)
+    at Speaker.once (events.js:265:8)
+    at PassThrough.Readable.pipe (_stream_readable.js:558:8)
+    at Socket.<anonymous> (/home/pi/videoSec/utils/audioStreaming.js:67:17)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at Socket.onevent (/home/pi/videoSec/node_modules/socket.io/lib/socket.js:335:8)
+    at Socket.onpacket (/home/pi/videoSec/node_modules/socket.io/lib/socket.js:299:12)
+    at Client.ondecoded (/home/pi/videoSec/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/home/pi/videoSec/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+[0mGET /streaming [32m200 [0m113.400 ms - -[0m
+Total listeners:  1
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+Total listeners:  2
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+[0mGET /streaming [32m200 [0m249.844 ms - -[0m
+[0mGET /streaming [32m200 [0m75.322 ms - -[0m
+
+> videoSec@0.0.0 start /home/pi/videoSec
+> node ./bin/www
+
+GPIO Listening
+Boton pulsado
+Boton pulsado
+Total listeners:  1
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+Total listeners:  2
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+[0mGET /streaming [32m200 [0m296.394 ms - -[0m
+[0mGET /streaming [32m200 [0m65.301 ms - -[0m
+Total listeners:  1
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+(node) warning: possible EventEmitter memory leak detected. 11 unpipe listeners added. Use emitter.setMaxListeners() to increase limit.
+Trace
+    at Speaker.addListener (events.js:239:17)
+    at PassThrough.Readable.pipe (_stream_readable.js:480:8)
+    at Socket.<anonymous> (/home/pi/videoSec/utils/audioStreaming.js:67:17)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at Socket.onevent (/home/pi/videoSec/node_modules/socket.io/lib/socket.js:335:8)
+    at Socket.onpacket (/home/pi/videoSec/node_modules/socket.io/lib/socket.js:299:12)
+    at Client.ondecoded (/home/pi/videoSec/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/home/pi/videoSec/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/home/pi/videoSec/node_modules/socket.io/node_modules/socket.io-parser/index.js:257:14)
+(node) warning: possible EventEmitter memory leak detected. 11 finish listeners added. Use emitter.setMaxListeners() to increase limit.
+Trace
+    at Speaker.addListener (events.js:239:17)
+    at Speaker.once (events.js:265:8)
+    at PassThrough.Readable.pipe (_stream_readable.js:564:8)
+    at Socket.<anonymous> (/home/pi/videoSec/utils/audioStreaming.js:67:17)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at Socket.onevent (/home/pi/videoSec/node_modules/socket.io/lib/socket.js:335:8)
+    at Socket.onpacket (/home/pi/videoSec/node_modules/socket.io/lib/socket.js:299:12)
+    at Client.ondecoded (/home/pi/videoSec/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/home/pi/videoSec/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+(node) warning: possible EventEmitter memory leak detected. 11 drain listeners added. Use emitter.setMaxListeners() to increase limit.
+Trace
+    at Speaker.addListener (events.js:239:17)
+    at PassThrough.Readable.pipe (_stream_readable.js:498:8)
+    at Socket.<anonymous> (/home/pi/videoSec/utils/audioStreaming.js:67:17)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at Socket.onevent (/home/pi/videoSec/node_modules/socket.io/lib/socket.js:335:8)
+    at Socket.onpacket (/home/pi/videoSec/node_modules/socket.io/lib/socket.js:299:12)
+    at Client.ondecoded (/home/pi/videoSec/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/home/pi/videoSec/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/home/pi/videoSec/node_modules/socket.io/node_modules/socket.io-parser/index.js:257:14)
+(node) warning: possible EventEmitter memory leak detected. 11 close listeners added. Use emitter.setMaxListeners() to increase limit.
+Trace
+    at Speaker.addListener (events.js:239:17)
+    at Speaker.once (events.js:265:8)
+    at PassThrough.Readable.pipe (_stream_readable.js:558:8)
+    at Socket.<anonymous> (/home/pi/videoSec/utils/audioStreaming.js:67:17)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at Socket.onevent (/home/pi/videoSec/node_modules/socket.io/lib/socket.js:335:8)
+    at Socket.onpacket (/home/pi/videoSec/node_modules/socket.io/lib/socket.js:299:12)
+    at Client.ondecoded (/home/pi/videoSec/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/home/pi/videoSec/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+[0mGET /streaming [32m200 [0m169.945 ms - -[0m
+Total listeners:  1
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+Total listeners:  2
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+[0mGET /streaming [32m200 [0m98.502 ms - -[0m
+[0mGET /streaming [32m200 [0m157.575 ms - -[0m
+Total listeners:  1
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+Total listeners:  2
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+[0mGET /streaming [32m200 [0m303.626 ms - -[0m
+[0mGET /streaming [32m200 [0m61.848 ms - -[0m
+Total listeners:  1
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+[0mGET /streaming [32m200 [0m294.351 ms - -[0m
+Total listeners:  1
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+[0mGET /streaming [32m200 [0m107.353 ms - -[0m
+Total listeners:  1
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+[0mGET /streaming [32m200 [0m99.160 ms - -[0m
+Total listeners:  1
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+(node) warning: possible EventEmitter memory leak detected. 11 exit listeners added. Use emitter.setMaxListeners() to increase limit.
+Trace
+    at ChildProcess.addListener (events.js:239:17)
+    at Namespace.<anonymous> (/home/pi/videoSec/utils/audioStreaming.js:52:11)
+    at emitOne (events.js:77:13)
+    at Namespace.emit (events.js:169:7)
+    at Namespace.emit (/home/pi/videoSec/node_modules/socket.io/lib/namespace.js:206:10)
+    at /home/pi/videoSec/node_modules/socket.io/lib/namespace.js:174:14
+    at doNTCallback0 (node.js:407:9)
+    at process._tickCallback (node.js:336:13)
+(node) warning: possible EventEmitter memory leak detected. 11 data listeners added. Use emitter.setMaxListeners() to increase limit.
+Trace
+    at Socket.addListener (events.js:239:17)
+    at Socket.Readable.on (_stream_readable.js:655:33)
+    at Namespace.<anonymous> (/home/pi/videoSec/utils/audioStreaming.js:56:18)
+    at emitOne (events.js:77:13)
+    at Namespace.emit (events.js:169:7)
+    at Namespace.emit (/home/pi/videoSec/node_modules/socket.io/lib/namespace.js:206:10)
+    at /home/pi/videoSec/node_modules/socket.io/lib/namespace.js:174:14
+    at doNTCallback0 (node.js:407:9)
+    at process._tickCallback (node.js:336:13)
+(node) warning: possible EventEmitter memory leak detected. 11 data listeners added. Use emitter.setMaxListeners() to increase limit.
+Trace
+    at Socket.addListener (events.js:239:17)
+    at Socket.Readable.on (_stream_readable.js:655:33)
+    at Namespace.<anonymous> (/home/pi/videoSec/utils/audioStreaming.js:60:18)
+    at emitOne (events.js:77:13)
+    at Namespace.emit (events.js:169:7)
+    at Namespace.emit (/home/pi/videoSec/node_modules/socket.io/lib/namespace.js:206:10)
+    at /home/pi/videoSec/node_modules/socket.io/lib/namespace.js:174:14
+    at doNTCallback0 (node.js:407:9)
+    at process._tickCallback (node.js:336:13)
+Total listeners:  2
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+[0mGET /streaming [0m- [0m- ms - -[0m
+Error system0
+Error system0
+Error system0
+Error system0
+Error system0
+Error system0
+Error system0
+Error system0
+Error system0
+Error system0
+Error system0
+Error system0
+Total listeners:  1
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+Total listeners:  2
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+[0mGET /streaming [0m- [0m- ms - -[0m
+[0mGET /streaming [0m- [0m- ms - -[0m
+Total listeners:  3
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+Total listeners:  4
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+[0mGET /streaming [0m- [0m- ms - -[0m
+[0mGET /streaming [0m- [0m- ms - -[0m
+[0mGET / [33m404 [0m44.419 ms - 953[0m
+Error: Not Found
+    at /home/pi/videoSec/app.js:17:13
+    at Layer.handle [as handle_request] (/home/pi/videoSec/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pi/videoSec/node_modules/express/lib/router/index.js:312:13)
+    at /home/pi/videoSec/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/pi/videoSec/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/pi/videoSec/node_modules/express/lib/router/index.js:271:10)
+    at /home/pi/videoSec/node_modules/express/lib/router/index.js:618:15
+    at next (/home/pi/videoSec/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/pi/videoSec/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/pi/videoSec/node_modules/express/lib/router/index.js:46:12)
+Total listeners:  1
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+Total listeners:  2
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+Total listeners:  3
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA
+Total listeners:  4
+Grabando...
+Spawning arecord -f S16_LE -c 1 -r 44100 -D plughw:CAMERA

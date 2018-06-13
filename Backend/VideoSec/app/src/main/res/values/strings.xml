@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">VideoSec</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">Nombre</string>
+    <string name="prompt_email">Correo electrónico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_password_repeat">Repite la contraseña</string>
+    <string name="action_sign_in">Entra</string>
+    <string name="action_sign_up">Regístrate</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="action_not_me">¿No eres tú?</string>
+    <string name="action_remember_me">Recuérdame</string>
+    <string name="error_invalid_email">Este correo electrónico no es válido</string>
+    <string name="error_invalid_password">La contraseña debe ser de, al menos, 6 caracteres</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_unrepeat_password">Las contraseñas no coinciden</string>
+    <string name="error_incorrect_email">Este email ya esta en uso</string>
+    <string name="error_incorrect_code">Este código es incorrecto</string>
+    <string name="error_field_required">Este campo es necesario</string>
+    <string name="permission_rationale">"Se necesitan los permisos de los Contactos para comprobar las cuentas de correo electrónico."
+    </string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Abrir navegador de la app</string>
+    <string name="navigation_drawer_close">Cerrar navegador de la app</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="welcome">Bienvenido a la app VideoSec!</string>
+
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="are_you_sure">¿Estás seguro que quieres salir?</string>
+    <string name="action_code">Ya casi está!\n Para terminar el registro, inserta el codigo que se ha enviado al correo </string>
+    <string name="action_insert_code">Inserta el codigo</string>
+    <string name="action_validate_code">Validar</string>
+    <string name="action_other_code">Nuevo código</string>
+    <string name="action_bidi">Para finalizar, sincroniza tu dispositivo con la camara asociada</string>
+    <string name="action_bidi_invalid">Codigo no valido</string>
+    <string name="action_bidi_error">Codigo incorrecto</string>
+    <string name="action_scan_error">Escaneo de codigo incorrecto</string>
+    <string name="action_registration_gcm">El dispositivo se ha registrado corrrectamente</string>
+    <string name="action_registration_gcm_error">El dispositivo no ha podido registrarse</string>
+    <string name="result_succeeded_bidi">Codigo reconocido</string>
+    <string name="result_failed_bidi">Codigo no reconocido</string>
+    <string name="result_failed_why_bidi">La aplicacion no puede reconocer el codigo</string>
+    <string name="result_succeed_newcode">El nuevo código ha sido enviado</string>
+    <string name="result_failed_newcode">No se ha podido enviar el nuevo código</string>
+    <string name="ok_button">Ok</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+</resources>

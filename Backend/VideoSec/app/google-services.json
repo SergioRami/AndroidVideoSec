@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "552416609712",
+    "project_id": "videosec-4b358"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552416609712:android:b32940a7801082e2",
+        "android_client_info": {
+          "package_name": "ramar.videosec"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZSbzia08k7vAhWHJ_304W5h9bYkDHHuQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
